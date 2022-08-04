@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F20930F6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="102dp"
+        android:fontFamily="serif"
+        android:text="Calculator"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/ETP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ETP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="212dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="serif"
+        android:text="CALCULATOR"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Total"
+        android:layout_marginTop="-50"
+        android:textSize="48sp" />
+</LinearLayout>
